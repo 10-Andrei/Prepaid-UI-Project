@@ -8,6 +8,7 @@
     <link rel="icon" href="/assets/images/ATM Prepaid Logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/nav.css">
     <link rel="stylesheet" href="assets/css/media.css">
@@ -69,8 +70,8 @@
 
             <div id="About" class="about-container">
                 <div class="about-section">
-                    <div class="about-title">
-                        <h1>Who we are</h1>
+                    <div class="about-title" data-aos="zoom-in" data-aos-once="true">
+                        <h1 >Who we are</h1>
                         <p>A trusted provider of <span>E-load</span> and <span>Prepaid Solutions</span></p>
                     </div>
 
@@ -78,11 +79,11 @@
                         <img src="assets/images/about/vectorline.png" alt="">
                     </div>
 
-                    <div class="about-img-right">
+                    <div class="about-img-right" data-aos="slide-left" data-aos-once="true">
                         <img src="assets/images/about/pic-r.png" alt="">
                     </div>
 
-                    <div class="about-img-left">
+                    <div class="about-img-left" data-aos="slide-right" data-aos-once="true">
                         <img src="assets/images/about/pic-l.png" alt="">
                     </div>
 
@@ -219,7 +220,6 @@
                 </button>
             </div>
         </div>
-
     </div>
     <!--Card End-->
 
@@ -229,20 +229,20 @@
 
     <!--Our Client-->
     <div id="Clients" class="clients-container">
-        <h3>Our Valued Partners</h3>
-        <h1>serving industry leaders</h1>
+        <h3 data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">Our Valued Partners</h3>
+        <h1 data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">serving industry leaders</h1>
         <div class="clients-section">
             <div class="clients-partner-icons">
-                <div class="clients-icons-img"><img src="assets/images/clients/1.png" alt=""></div>
-                <div class="clients-icons-img"><img src="assets/images/clients/2.png" alt=""></div>
-                <div class="clients-icons-img"><img src="assets/images/clients/3.png" alt=""></div>
-                <div class="clients-icons-img"><img src="assets/images/clients/4.png" alt=""></div>
-                <div class="clients-icons-img"><img src="assets/images/clients/5.png" alt=""></div>
-                <div class="clients-icons-img"><img src="assets/images/clients/6.png" alt=""></div>
-                <div class="clients-icons-img"><img src="assets/images/clients/7.png" alt=""></div>
-                <div class="clients-icons-img"><img src="assets/images/clients/8.png" alt=""></div>
-                <div class="clients-icons-img"><img src="assets/images/clients/9.png" alt=""></div>
-                <div class="clients-icons-img"><img src="assets/images/clients/10.png" alt=""></div>
+                <div class="clients-icons-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="3000"><img src="assets/images/clients/1.png" alt=""></div>
+                <div class="clients-icons-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="3000"><img src="assets/images/clients/2.png" alt=""></div>
+                <div class="clients-icons-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="3000"><img src="assets/images/clients/3.png" alt=""></div>
+                <div class="clients-icons-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="3000"><img src="assets/images/clients/4.png" alt=""></div>
+                <div class="clients-icons-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="3000"><img src="assets/images/clients/5.png" alt=""></div>
+                <div class="clients-icons-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="3000"><img src="assets/images/clients/6.png" alt=""></div>
+                <div class="clients-icons-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="3000"><img src="assets/images/clients/7.png" alt=""></div>
+                <div class="clients-icons-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="3000"><img src="assets/images/clients/8.png" alt=""></div>
+                <div class="clients-icons-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="3000"><img src="assets/images/clients/9.png" alt=""></div>
+                <div class="clients-icons-img" data-aos="fade-up" data-aos-once="true" data-aos-duration="3000"><img src="assets/images/clients/10.png" alt=""></div>
             </div>
         </div>
 
@@ -383,6 +383,10 @@
 
     <script src="assets/scripts/title.js"></script>
     <script src="assets/scripts/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
