@@ -331,8 +331,6 @@ body {
     object-fit: cover;
     overflow: hidden;
     aspect-ratio: 16 / 9;
-    z-index: -1;
-
 }
 
 
@@ -599,17 +597,17 @@ button:hover {
 
 /* Layout for left and right div */
 .container-home {
-    position: relative;
+    position: sticky;
     height: 100vh;
-    z-index: -1;
 }
 
 .home {
-    display: 'flexbox';
+    display: flex;
     width: 100%;
     position: fixed;
     padding: 5px;
 }
+
 
 /* Left div takes 30% width */
 .left-div-home {
@@ -617,6 +615,7 @@ button:hover {
     height: 550px;
     background-color: #fff;
     float: left;
+
 }
 
 /* Right div takes 70% width */
@@ -643,35 +642,8 @@ button:hover {
     padding-left: 50px;
 }
 
-/* Media query for mobile */
-@media (max-width: 600px) {
-    .home-title {
-        font-size: 27px;
-        padding-top: 45px;
-        padding-left: 20px;
-    }
-}
-
-.home-desc {
-    font-size: 30px;
-    font-weight: 100;
-    line-height: 1.4em;
-    padding-top: 15px;
-    padding-left: 50px;
-}
-
-/* Media query for mobile */
-@media (max-width: 600px) {
-    .home-desc {
-        font-size: 15px;
-        font-weight: 300;
-        padding-top: 10px;
-        padding-left: 20px;
-    }
-}
-
 /* Home button */
-.home-button {
+/* .home-button {
     margin-top: 34px;
     margin-left: 29px;
     background-color: #0198CC;
@@ -680,7 +652,7 @@ button:hover {
     border-radius: 25px;
     cursor: pointer;
     font-size: 19px;
-}
+} */
 
 
 
@@ -788,7 +760,6 @@ p {
 #EpinsTopup {
     scroll-margin: 70px;
 }
-
 
 .main-container {
     background-color: var(--bg-main);

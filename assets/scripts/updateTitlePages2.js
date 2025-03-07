@@ -10,11 +10,8 @@ function updateTitleFromHash() {
         case "Transpo":
             newTitle = "Transportation | ATM Prepaid";
             break;
-        case "Epins":
-            newTitle = "E-Pins | ATM Prepaid";
-            break;
-        case "Topup":
-            newTitle = "Direct Top-Up | ATM Prepaid";
+        case "EpinsTopup":
+            newTitle = "E-Pins and Top-up | ATM Prepaid";
             break;
     }
 

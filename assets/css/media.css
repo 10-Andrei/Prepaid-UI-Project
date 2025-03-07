@@ -17,7 +17,7 @@
     }
 
     .nav-menu img {
-        width: 100px; /* Adjust as needed */
+        width: 100px;
         height: auto;
         margin-bottom: 20px; 
     }
@@ -84,6 +84,31 @@
     cursor: pointer;
 }
 
+@media (max-width: 600px) {
+    .home-title {
+        font-size: 27px;
+        padding-top: 45px;
+        padding-left: 20px;
+    }
+}
+
+.home-desc {
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1.4em;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+@media (max-width: 600px) {
+    .home-desc {
+        font-size: 15px;
+        font-weight: 300;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+}
+
 @media (max-width: 1024px) {
     .home-button {
         width: 150px;
@@ -107,7 +132,7 @@
     }
 }
 
-/* Small Mobile (up to 400px) */
+
 @media (max-width: 768px) {
     .home {
         display: flex;
