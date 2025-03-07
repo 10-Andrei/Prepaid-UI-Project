@@ -819,8 +819,10 @@ p {
 }
 
 .main-container-img {
-    margin: 44px;
+    margin: 44px auto;
     width: 1253px;
+    /* width: 90%; */
+    max-width: 1253px; 
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -834,9 +836,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 350px;
+    height: 250px;
     width: 312px;  
     background-color: var(--bg-main);
+
 }
 
 
@@ -845,22 +848,3 @@ p {
     width: 218px;
 }
 
-.topup-section {
-    background-color: var(--bg-main);
-
-    height: 100vh;
-}
-
-.transpo-container {
-    background-color: var(--bg-main);
-    border: 2px solid black;
-    height: 100vh;
-}
-
-.epins-section {
-    background-color: var(--bg-main);
-
-    color: white;
-    height: 100vh;
-
-}

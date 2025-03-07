@@ -351,6 +351,97 @@
     }
 }
 
+
+/* Second Page */
+
+@media (max-width: 1386px) {
+    .telco-title,
+    .transpo-title,
+    .epins-title {
+        font-size: 1.8em; 
+        width: 100%;
+        height: auto; 
+        text-align: left; 
+    }
+
+    .main-container,
+    .epins-container {
+        height: auto; 
+        padding: 20px 0;
+        transform: scaleX(-1);
+    }
+
+    .icon-img {
+        width: calc(50% - 10px); 
+        height: auto; 
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-img img {
+        width: 180px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 760px) {
+    .telco-title,
+    .transpo-title,
+    .epins-title {
+        font-size: 1.5em; 
+        width: 100%;
+        padding: 10px 20px;
+        height: auto;
+        text-align: left;
+    }
+
+
+    .main-container,
+    .epins-container {
+        height: auto;
+        padding: 20px 0;
+        transform: scaleX(-1);
+    }
+
+    .icon-img {
+        width: calc(50% - 10px); 
+        padding: 20px;
+        height: auto; 
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-img img {
+        width: 150px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .telco-title,
+    .transpo-title,
+    .epins-title {
+        font-size: 1em; 
+        padding-bottom: 10px;
+    }
+
+    .icon-img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .icon-img img {
+        width: 150px;
+        height: 100px;
+    }
+}
+
+
+
 /* Footer Section */
 @media screen and (max-width: 1024px) {
     .footer-container {
