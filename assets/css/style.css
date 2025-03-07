@@ -53,7 +53,7 @@ body {
 }
 
 .AboutImg {
-    background-image: url('/assets/images/about/about-banner.png');
+    background-image: url('../images/about/about-banner.png');
     width: 100%;
     height: 100vh;
     aspect-ratio: 16 / 9;
@@ -318,8 +318,7 @@ body {
 }
 
 .product-img{
-    background-image: url('/assets/images/product/product-banner.png');
-    /* background-image: url('/ATM-prepaid-UI/assets/images/product/our-product-logo.png'); */
+    background-image: url('../images/product/product-banner.png');
     width: 100%;
     height: auto;
     max-height: 80vh;
@@ -775,8 +774,7 @@ p {
 /* Telco Load Section */
 .telco-title,
 .transpo-title,
-.epins-title,
-.topup-title {
+.epins-title{
     font-family: var(--font-poppins);
     color: #17B381;
     font-size: 2em;
@@ -787,19 +785,31 @@ p {
 
 #Telco,
 #Transpo,
-#Eepins,
-#Topup {
+#EepinsTopup {
     scroll-margin: 70px;
 }
 
 
 .main-container {
     background-color: var(--bg-main);
-    margin: auto; 
+    margin: auto;
     height: 90vh;
     display: flex;
     justify-content: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url('../images/wave/page-wave.png');
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+}
 
+.epins-container {
+    background-color: var(--bg-main);
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
     background-size: contain; 
     background-repeat: no-repeat;
     background-position: bottom;
@@ -811,20 +821,24 @@ p {
 .main-container-img {
     margin: 44px;
     width: 1253px;
-    height: 450px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     transform: scaleX(-1);
+    background-color: var(--bg-main);
 }
 
 .icon-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 450px;
+    height: 350px;
     width: 312px;  
     background-color: var(--bg-main);
 }
+
 
 .icon-img img {
     height: 149px;
@@ -838,8 +852,7 @@ p {
 }
 
 .transpo-container {
-    /* background-color: var(--bg-main); */
-    background-color: red;
+    background-color: var(--bg-main);
     border: 2px solid black;
     height: 100vh;
 }
