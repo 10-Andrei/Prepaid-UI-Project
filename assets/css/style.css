@@ -318,7 +318,7 @@ body {
 }
 
 .product-img{
-    background-image: url('/assets/images/product/our-product-logo.png');
+    background-image: url('/assets/images/product/product-banner.png');
     /* background-image: url('/ATM-prepaid-UI/assets/images/product/our-product-logo.png'); */
     width: 100%;
     height: auto;
@@ -779,16 +779,24 @@ p {
 .topup-title {
     font-family: var(--font-poppins);
     color: #17B381;
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 20px;
     width: 1253px;
     height: 109px;
 }
 
+#Telco,
+#Transpo,
+#Eepins,
+#Topup {
+    scroll-margin: 70px;
+}
+
+
 .main-container {
     background-color: var(--bg-main);
     margin: auto; 
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
 
@@ -807,7 +815,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     transform: scaleX(-1);
-
 }
 
 .icon-img {
@@ -817,7 +824,6 @@ p {
     height: 450px;
     width: 312px;  
     background-color: var(--bg-main);
-    
 }
 
 .icon-img img {
