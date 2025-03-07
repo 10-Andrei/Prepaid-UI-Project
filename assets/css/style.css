@@ -809,8 +809,8 @@ p {
     justify-content: center;
     align-items: center;
     height: 250px;
-    width: 312px;  
-    background-color: var(--bg-main);
+    width: 312px;
+    background-color: transparent;
 
 }
 
