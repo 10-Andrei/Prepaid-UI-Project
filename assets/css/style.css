@@ -8,16 +8,25 @@
     src: url('./assets/Fonts/Poppins-Regular.ttf') format('truetype');
 }
 
-
 :root {
-    --section-margin: 80px 0 20px;
-    --bg-main: #ffffff;
-    --color-dark: #000000;
-    --color-light: #fff;
+    /* Font */
     --font-poppins: 'Poppins', sans-serif;
     --font-AvenirLight: 'AvenirLight', sans-serif;
     --font-arial: 'Arial', sans-serif;
+
+    /* Bg color */
+    --bg-main: #ffffff;
+
+    /* Font color */
+    --color-dark: #000000;
+    --color-light: #fff;
+
+    /* Others */
+    --section-margin: 80px 0 20px;
+    
+    
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -33,71 +42,7 @@ body {
     scroll-behavior: smooth;
 }
 
-.navbar {
-    font-family: var(--font-arial);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #73CCB0;
-    height: 70px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-}
 
-.nav-logo {
-    margin: 0 40px;
-    display: block;
-    height: 100%;
-    max-width: auto;
-}
-
-.nav-menu {
-    margin-right: 5.5%;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    gap: 65px;
-}
-
-.nav-menu li a {
-    text-decoration: none;
-    color: #062D3E;
-    font-size: 14px;
-    font-weight: 100;
-    transition: color 0.3s ease;
-}
-
-.nav-menu li a.active {
-    color: #008cff;
-}
-
-.nav-menu li a:hover {
-    color: #008cff;
-}
-
-/* nav menu home hover */
-.nav-menu .home-hover {
-    background-color: transparent;
-    border: 1px solid transparent;
-    cursor: pointer;
-    border-radius: 50px;
-    padding: 10px 25px;
-    text-align: center;
-    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-}
-
-.nav-menu .home-hover:active {
-    color: black;
-}
-
-.nav-menu .home-hover:hover {
-    background-color: #062D3E;
-    border: 1px solid #062D3E;
-    color: #73CCB0;
-}
 
 /* Hamburger menu */
 .hamburger {
@@ -105,13 +50,6 @@ body {
     flex-direction: column;
     cursor: pointer;
     margin-right: 40px;
-}
-
-/* Ensure the close button is always hidden on larger screens */
-@media screen and (min-width: 769px) {
-    .close-btn {
-        display: none;
-    }
 }
 
 .AboutImg {

@@ -64,6 +64,12 @@
     }
 }
 
+@media screen and (min-width: 769px) {
+    .close-btn {
+        display: none;
+    }
+}
+
 /* Home Button Section */
 .home-button {
     width: 173px;
