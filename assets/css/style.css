@@ -773,7 +773,10 @@ p {
 /* Second Page */
 
 /* Telco Load Section */
-.telco-title {
+.telco-title,
+.transpo-title,
+.epins-title,
+.topup-title {
     font-family: var(--font-poppins);
     color: #17B381;
     font-size: 2.5em;
@@ -782,31 +785,42 @@ p {
     height: 109px;
 }
 
-.telco-container {
+.main-container {
     background-color: var(--bg-main);
-    margin: auto;    
+    margin: auto; 
+    height: 100vh;
     display: flex;
     justify-content: center;
+
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url('../images/wave/page-wave.png');
+    background-repeat: no-repeat;
     transform: scaleX(-1);
 }
 
-.telco-container-img {
+.main-container-img {
     margin: 44px;
     width: 1253px;
     height: 450px;
     display: flex;
     flex-wrap: wrap;
+    transform: scaleX(-1);
+
 }
 
-.telco-img {
+.icon-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 304px;
+    height: 450px;
     width: 312px;  
+    background-color: var(--bg-main);
+    
 }
 
-.telco-img img {
+.icon-img img {
     height: 149px;
     width: 218px;
 }
@@ -817,9 +831,10 @@ p {
     height: 100vh;
 }
 
-.transpo-section {
-
-    background-color: var(--bg-main);
+.transpo-container {
+    /* background-color: var(--bg-main); */
+    background-color: red;
+    border: 2px solid black;
     height: 100vh;
 }
 
